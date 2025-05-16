@@ -5,7 +5,7 @@ import authRouter from "./routes/authRoutes.js";
 import postPlaceRouter from "./routes/postPlaceRoutes.js";
 import { connectDB } from "./config/db.js";
 import cors from "cors";
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const app = express();
 
 app.use(cors());
